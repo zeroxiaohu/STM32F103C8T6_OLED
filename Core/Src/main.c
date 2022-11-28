@@ -87,11 +87,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
   OLED_Init();
   OLED_Clear();
+  // 4. 在第0列第0页打印一个字符'A'
   OLED_PutChar(0, 0, 'A');
+  // 5. 在第16列第9页打印一个字符'Y'
   OLED_PutChar(0, 16, 'Y');
-  
+  // 6. 在第0列第2页打印一个字符串"Hello World!"
   OLED_PrintString(2, 0, "Hello World!");
-
   /* USER CODE END 2 */
 
   /* Infinite loop */

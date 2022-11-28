@@ -478,7 +478,7 @@ ork --depend=dome\startup_stm32f103xb.d -odome\startup_stm32f103xb.o -I.\RTE\_D
 OME -IC:\Users\hu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I
 C:\Users\hu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\1.0.2\Device\Include --p
 redefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --predefine="S
-TM32F10X_MD SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f103xb.lst s
+TM32F10X_LD SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f103xb.lst s
 tartup_stm32f103xb.s
 
 
